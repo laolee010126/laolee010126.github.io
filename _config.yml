@@ -99,10 +99,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: laolee010126/laolee010126.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOHHhTbg
+    category: General
+    category_id: DIC_kwDOHHhTbs4COarB
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
@@ -149,7 +149,7 @@ defaults:
   - scope:
       path: _drafts
     values:
-      comments: false
+      comments: true
   - scope:
       path: ""
       type: tabs # see `site.collections`
